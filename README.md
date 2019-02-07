@@ -1,2 +1,1 @@
-# sedona-stylelint
-Стиль кода CSS
+# Стиль кода CSS
