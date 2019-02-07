@@ -1,9 +1,9 @@
 {
-  "name": "sedona-stylelint",
+  "name": "stylelint-config-sedona",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/constlab/sedona-stylelint.git"
+    "url": "git+https://github.com/getsedona/stylelint-config-sedona.git"
   },
-  "homepage": "https://github.com/constlab/sedona-stylelint#readme"
+  "homepage": "https://github.com/getsedona/stylelint-config-sedona#readme"
 }
