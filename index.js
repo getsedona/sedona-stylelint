@@ -93,9 +93,6 @@ module.exports = {
     "selector-type-case": "lower",
     "selector-type-no-unknown": true,
     "selector-max-empty-lines": 0,
-    "selector-no-qualifying-type": [true, {
-      "ignore": ["attribute"]
-    }],
 
     "selector-list-comma-newline-after": "always",
     "selector-list-comma-newline-before": "never-multi-line",
@@ -143,14 +140,19 @@ module.exports = {
     "at-rule-semicolon-newline-after": "always",
 
     "comment-no-empty": true,
+    "comment-empty-line-before": "always",
+    "comment-whitespace-inside": "always",
 
-    "indentation": null,
+    "indentation": ["tab", {
+      "baseIndentLevel": 1
+    }],
 
-    "max-empty-lines": 2,
+    "max-empty-lines": 1,
     "no-descending-specificity": true,
     "no-duplicate-selectors": true,
     "no-duplicate-at-import-rules": true,
     "no-empty-source": true,
+    "no-empty-first-line": true,
     "no-eol-whitespace": true,
     "no-extra-semicolons": true,
     "no-invalid-double-slash-comments": true,
