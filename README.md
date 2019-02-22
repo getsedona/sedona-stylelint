@@ -9,7 +9,6 @@ npm i stylelint-config-sedona --save-dev
 ### Подключение
 
 ```js
-// .stylelintrc.js
 {
   "extends": "stylelint-config-sedona"
 }
