@@ -3,7 +3,7 @@
 ### Установка
 
 ```
-npm i stylelint-config-sedona --save-dev
+npm install stylelint-config-sedona --save-dev
 ```
 
 ### Подключение
