@@ -1,7 +1,6 @@
 module.exports = {
   "rules": {
     "color-hex-case": "lower",
-    "color-no-invalid-hex": true,
     "color-named": "never",
 
     "font-family-name-quotes": "always-where-recommended",
@@ -82,7 +81,6 @@ module.exports = {
     "selector-combinator-space-before": "always",
     "selector-descendant-combinator-no-non-space": true,
     "selector-max-attribute": 2,
-    "selector-max-id": 0,
     "selector-max-class": 2,
     "selector-pseudo-class-case": "lower",
     "selector-pseudo-class-no-unknown": true,
@@ -151,7 +149,6 @@ module.exports = {
     "no-descending-specificity": true,
     "no-duplicate-selectors": true,
     "no-duplicate-at-import-rules": true,
-    "no-empty-source": true,
     "no-empty-first-line": true,
     "no-eol-whitespace": true,
     "no-extra-semicolons": true,
