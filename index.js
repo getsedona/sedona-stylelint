@@ -1,6 +1,6 @@
 module.exports = {
   "rules": {
-    "color-hex-case": "lower",
+    "color-hex-case": null,
     "color-named": "never",
 
     "font-family-name-quotes": "always-where-recommended",
@@ -81,7 +81,7 @@ module.exports = {
     "selector-combinator-space-before": "always",
     "selector-descendant-combinator-no-non-space": true,
     "selector-max-attribute": 2,
-    "selector-max-class": 2,
+    "selector-max-class": 3,
     "selector-pseudo-class-case": "lower",
     "selector-pseudo-class-no-unknown": true,
     "selector-pseudo-class-parentheses-space-inside": "never",
@@ -141,7 +141,7 @@ module.exports = {
     "comment-empty-line-before": "always",
     "comment-whitespace-inside": "always",
 
-    "indentation": ["tab", {
+    "indentation": [2, {
       "baseIndentLevel": 1
     }],
 
